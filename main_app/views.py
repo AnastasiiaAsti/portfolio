@@ -31,7 +31,7 @@ def posts_index(request):
     return render(request, 'posts/index.html', {'posts': posts})
 
 
-def add_photo(request, song_id):
+def add_photo(request, project_id):
     photo_file = request.FILES.get('photo-file', None)
     if photo_file:
         s3 = boto3.client('s3')
