@@ -16,12 +16,15 @@
 </div>
 
 <div class="row row-cols-auto">
-  <div class="col-"></div>
-  <div class="col">
-    <h2>Skills:</h2>
-    <p>I am a fullstack software developer</p>
+  <div class="col-2"></div>
+  <div class="col-8">
+    <ul class="list-group list-group-horizontal flex-wrap">
+      {%for skill in skills %}
+      <li class="skill list-group-item"><span>{{skill.name}}</span></li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class="col-"></div>
+  <div class="col-2"></div>
 </div>
 
 <div class="row row-cols-auto">
