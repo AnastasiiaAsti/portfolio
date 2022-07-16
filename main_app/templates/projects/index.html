@@ -7,7 +7,9 @@
       <div class="row row-cols-auto mt-5">
         <div class="col-lg-6 col-sm-12">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          {% for photo in project.photo_set.all %}
+          <img src="{{photo.url}}" class="card-img-top" alt="">
+          {% endfor %}
           <div class="card-body"
             <span class="">{{ project.name }}</span>
             <a class="" href="{{project.link}}"><p>Link:{{project.link}}</p></a>
