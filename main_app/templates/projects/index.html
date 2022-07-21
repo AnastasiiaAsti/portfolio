@@ -1,6 +1,6 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1 class="mt-5 monoton">Projects</h1>
+<h1 class="mt-5 monoton display-2 text-center">Projects</h1>
 
 {% for project in projects %}
 <div class="container-fluid">
@@ -8,10 +8,11 @@
         <div class="col col-sm-12">
         <div class="card">
           {% for photo in project.photo_set.all %}
+          <span class="m-5 bangers display-5">{{ project.name }}</span>
           <img src="{{photo.url}}" class="card-img-top" alt="">
           {% endfor %}
-          <div class="card-body"
-            <span class="">{{ project.name }}</span>
+          <div class="card-body">
+  
             <a class="" href="{{project.link}}"><p>Link:{{project.link}}</p></a>
             <p>Details: {{project.description}}</p>
         </div>
