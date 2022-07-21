@@ -1,5 +1,8 @@
 /*f
-ont-family: 'Bebas Neue', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lobster', cursive;
 font-family: 'Luckiest Guy', cursive;
 font-family: 'Monoton', cursive;
 */
@@ -14,4 +17,16 @@ font-family: 'Monoton', cursive;
 
 .monoton {
     font-family: 'Monoton', cursive;
+}
+
+.abril {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bangers {
+    font-family: 'Bangers', cursive;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
 }
