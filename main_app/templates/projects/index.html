@@ -6,14 +6,14 @@
 <div class="container-fluid">
       <div class="row row-cols-auto mt-5 d-flex flex-end">
         <div class="col col-sm-12">
-        <div class="card">
+        <div class="card shadow mb-5">
           {% for photo in project.photo_set.all %}
           <span class="m-5 bangers display-5">{{ project.name }}</span>
           <img src="{{photo.url}}" class="card-img-top" alt="">
           {% endfor %}
           <div class="card-body">
   
-            <a class="" href="{{project.link}}"><p>Link:{{project.link}}</p></a>
+            <a class="color" href="{{project.link}}"><p>Link:   {{project.link}}</p></a>
             <p>Details: {{project.description}}</p>
         </div>
             </div>

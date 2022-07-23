@@ -4,13 +4,13 @@
 
 {% for post in posts %}
 <div class="container-fluid">
-  <div class="card mt-3 mb-3">
+  <div class="card mt-3 mb-3 shadow">
     <div class="card">
       {% for picture in post.picture_set.all %}
       <img src="{{picture.url}}" class="card-img-top" alt="">
       {% endfor %}
       <div class="card-body">
-        <span class="">{{ post.title }}</span>
+        <span class="abril">{{ post.title }}</span>
         <p class="card-text text-muted">{{post.date}}</p>
         <p class="card-text">{{post.details}}</p>
     </div>
