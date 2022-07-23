@@ -30,3 +30,8 @@ font-family: 'Monoton', cursive;
 .lobster {
     font-family: 'Lobster', cursive;
 }
+
+.skill:hover {
+    background-color: #C06C84;
+    cursor: pointer;
+}
