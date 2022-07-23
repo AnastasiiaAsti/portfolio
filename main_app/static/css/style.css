@@ -32,6 +32,10 @@ font-family: 'Monoton', cursive;
 }
 
 .skill:hover {
-    background-color: #C06C84;
-    cursor: pointer;
+    background-color: #F8B195;
+    cursor: pointer;   
+}
+
+.color {
+    color: #F8B195;;
 }
