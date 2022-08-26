@@ -37,5 +37,20 @@ font-family: 'Monoton', cursive;
 }
 
 .color {
-    color: #F8B195;;
+    color: #F8B195;
+}
+
+.list ul li {
+    list-style: none;
+    font-size: large;
+}
+
+
+.here:link {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.here:hover {
+
 }

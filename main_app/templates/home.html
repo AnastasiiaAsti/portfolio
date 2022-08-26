@@ -1,12 +1,47 @@
 {% extends 'base.html' %} {% block content %}
 
 
-<div class="text-center m-5"><img src="/static/images/hi.png" alt=""></div>
-<p class="m-5">This page does not have anything yet, cause its THE main page and it is kind of big deal, some say it has to be <span class="bangers">PERFECT</span> soooo <br>
-    <span class="lobster mt-5 text-end">how about a joke for now?</span> :)</p>
-<hr>
-<br>
+<div class="text-center m-5">
+    <p class="m-5 display-3 monoton">Welcome to my space!</p>
+</div>
 
-<p class="abril display-6 text-center mb-5">Why do programmers prefer dark mode?<br>
-    Because light attracts bugs.</p>
+
+
+<p class="abril text-center mb-5 display-6">This is my virtual business card
+</p>
+<hr>
+
+<div class="m-5">
+    <span class="display-6 bedas">Things you can do here:</span>
+</div>
+    <div class="list">
+        <ul>
+            <li class="mb-5">
+                <i class="fas fa-star m-5"></i>  
+                Learn a little about 
+                <span class="lucky">ME</span> 
+                <i class="fas fa-arrow-right fa-lg m-4"></i> 
+                <a class="monoton here color" href="{% url 'about' %}">HERE</a>
+            </li>
+            <li class="mb-5">
+                <i class="fas fa-star m-5"></i>  
+                Check out my 
+                <span class="lucky ">portfolio </span>
+                <i class="fas fa-arrow-right fa-lg m-4"></i>
+                <a class="monoton here color" href="{% url 'projects_index' %}">HERE</a>
+            </li>
+            <li class="mb-5">
+                <i class="fas fa-star m-5"></i>  
+                Browse my personal 
+                <span class="lucky ">sandbox </span> 
+                <i class="fas fa-arrow-right fa-lg m-4"></i>
+                <a class="monoton here color" href="https://codepen.io/AnastasiiaAsti"
+                target="_blank"
+                >HERE</a>
+
+            </li>
+            <li class="mb-5"><i class="fas fa-star m-5"></i>  <span class="lucky">Connect with me</span> through any of links down below <i class="fas fa-arrow-down fa-lg m-4"></i></li>
+        </ul>
+    </div>
+
 {% endblock %}
