@@ -7,6 +7,17 @@ font-family: 'Luckiest Guy', cursive;
 font-family: 'Monoton', cursive;
 */
 
+/* .dark-bg {
+    background-color: var(--bs-body-color);
+    color: rgb(255, 245, 240);
+}
+
+.dark-bg-nav {
+    background-color: var(--bs-gray-900);
+    color: rgb(255, 245, 240);
+} */
+
+
 .bedas {
     font-family: 'Bebas Neue', cursive;
 }
