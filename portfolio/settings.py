@@ -89,18 +89,18 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': 'portfolio',
-    # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['DATABASE_NAME'],
-        'USER': os.environ['DATABASE_USER'],
-        'PASSWORD': os.environ['DATABASE_PASSWORD'],
-        'HOST': 'db.bit.io',
-        'PORT': '5432',
+        'NAME': 'portfolio',
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': os.environ['DATABASE_NAME'],
+    #     'USER': os.environ['DATABASE_USER'],
+    #     'PASSWORD': os.environ['DATABASE_PASSWORD'],
+    #     'HOST': 'db.bit.io',
+    #     'PORT': '5432',
+    # }
 }
 
 
